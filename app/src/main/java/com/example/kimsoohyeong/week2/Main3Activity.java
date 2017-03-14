@@ -15,6 +15,7 @@ public class Main3Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
+        setTitle("온도변환기");
 
         init();
     }
@@ -29,22 +30,36 @@ public class Main3Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String temp = e1.getText().toString();
-                double res1 = Double.parseDouble(temp) * 1.8 + 32;
+                if (temp.equals("")) {
+                    e1.requestFocus();
+                    Toast.makeText(getApplicationContext(),
+                            "값을 입력해주세요",
+                            Toast.LENGTH_SHORT).show();
+                } else {
+                    double res1 = Double.parseDouble(temp) * 1.8 + 32;
 
-                Toast.makeText(getApplicationContext(),
-                        "화씨 온도는 " + res1 + "도 입니다",
-                        Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),
+                            "화씨 온도는 " + res1 + "도 입니다",
+                            Toast.LENGTH_SHORT).show();
+                }
             }
         });
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String temp = e2.getText().toString();
-                double res2 = (Double.parseDouble(temp) - 32) / 1.8;
+                if (temp.equals("")) {
+                    e2.requestFocus();
+                    Toast.makeText(getApplicationContext(),
+                            "값을 입력해주세요",
+                            Toast.LENGTH_SHORT).show();
+                } else {
+                    double res2 = (Double.parseDouble(temp) - 32) / 1.8;
 
-                Toast.makeText(getApplicationContext(),
-                        "섭씨 온도는 " + res2 + "도 입니다",
-                        Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),
+                            "섭씨 온도는 " + res2 + "도 입니다",
+                            Toast.LENGTH_SHORT).show();
+                }
             }
         });
     }

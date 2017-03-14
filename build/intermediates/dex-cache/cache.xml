@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/KimSooHyeong/AndroidStudioProjects/androidApp2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="266860e7a6f18cf8c598a58293a291eb483fdb86">
+        <dex dex="/Users/KimSooHyeong/AndroidStudioProjects/androidApp2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_267a8b15d8335772bbe1b94b1383003f70e986e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/KimSooHyeong/AndroidStudioProjects/androidApp2/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/KimSooHyeong/AndroidStudioProjects/androidApp2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.2.0_7aae336e58e2902359998629f8ae468e3fe03b4a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/KimSooHyeong/AndroidStudioProjects/androidApp2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/Users/KimSooHyeong/AndroidStudioProjects/androidApp2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.2.0_2ed9b519f4d74007027cf5a6c2a85cd39a47b437/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/KimSooHyeong/AndroidStudioProjects/androidApp2/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/KimSooHyeong/AndroidStudioProjects/androidApp2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.2.0_5c8b4c2d54c87dcf639475689d5261f26e919240/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/KimSooHyeong/AndroidStudioProjects/androidApp2/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/KimSooHyeong/AndroidStudioProjects/androidApp2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.2.0_3bd7ea897debc5f5ba3aacedc42e88ed6116ede2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/KimSooHyeong/AndroidStudioProjects/androidApp2/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/KimSooHyeong/AndroidStudioProjects/androidApp2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.2.0_ebdd8bde6eedc566d4c15ea8925b5a79c7db873f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/KimSooHyeong/AndroidStudioProjects/androidApp2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a5a90161314948bdc3bad7be1f5b77ecced2c20e">
+        <dex dex="/Users/KimSooHyeong/AndroidStudioProjects/androidApp2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a9fc11bd2d6f7088bae490a50e06bc024c4fc24f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/KimSooHyeong/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/KimSooHyeong/AndroidStudioProjects/androidApp2/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.2.0_a9a94060fa5a821611183bc68e96255924a5aefa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/KimSooHyeong/AndroidStudioProjects/androidApp2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/Users/KimSooHyeong/AndroidStudioProjects/androidApp2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.2.0_1cc37ebcf2f0e20ae2d29eab03b92498c4ac94fb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/KimSooHyeong/AndroidStudioProjects/androidApp2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/Users/KimSooHyeong/AndroidStudioProjects/androidApp2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.2.0_7d0ec027bc4d686e696dd0be662dea43db5f508b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/KimSooHyeong/AndroidStudioProjects/androidApp2/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/KimSooHyeong/AndroidStudioProjects/androidApp2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.2.0_2f22aa6fb5ce00a39a652eafc52c6af1fa438ea8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/KimSooHyeong/AndroidStudioProjects/androidApp2/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/KimSooHyeong/AndroidStudioProjects/androidApp2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.2.0_44bd586bef4c6c4f1a80a10f49f10cbe43a3895a/classes.dex" />
+    </item>
+
+</items>

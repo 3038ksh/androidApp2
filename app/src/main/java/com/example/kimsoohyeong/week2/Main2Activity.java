@@ -15,6 +15,7 @@ public class Main2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        setTitle("나이 계산기");
 
         init();
     }
@@ -29,22 +30,36 @@ public class Main2Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String year = e1.getText().toString();
-                int res1 = 2017 - Integer.parseInt(year) + 1;
+                if (year.equals("")) {
+                    e1.requestFocus();
+                    Toast.makeText(getApplicationContext(),
+                            "값을 입력해주세요",
+                            Toast.LENGTH_SHORT).show();
+                } else {
+                    int res1 = 2017 - Integer.parseInt(year) + 1;
 
-                Toast.makeText(getApplicationContext(),
-                        "당신의 나이는 " + res1 + "입니다",
-                        Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),
+                            "당신의 나이는 " + res1 + "입니다",
+                            Toast.LENGTH_SHORT).show();
+                }
             }
         });
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String age = e2.getText().toString();
-                int res2 = 2017 - Integer.parseInt(age) + 1;
+                if (age.equals("")) {
+                    e2.requestFocus();
+                    Toast.makeText(getApplicationContext(),
+                            "값을 입력해주세요",
+                            Toast.LENGTH_SHORT).show();
+                } else {
+                    int res2 = 2017 - Integer.parseInt(age) + 1;
 
-                Toast.makeText(getApplicationContext(),
-                        "당신의 태어난 해는 " + res2 + "년 입니다",
-                        Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),
+                            "당신의 태어난 해는 " + res2 + "년 입니다",
+                            Toast.LENGTH_SHORT).show();
+                }
             }
         });
     }

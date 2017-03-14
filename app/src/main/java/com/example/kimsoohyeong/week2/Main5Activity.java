@@ -15,6 +15,7 @@ public class Main5Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main5);
+        setTitle("계산기");
 
         init();
     }
@@ -33,15 +34,23 @@ public class Main5Activity extends AppCompatActivity {
                 String num1 = e1.getText().toString();
                 String num2 = e2.getText().toString();
 
-                if (num1.equals("") || num2.equals("")) {
+                if (num1.equals("")) {
                     Toast.makeText(getApplicationContext(),
                             "값을 입력하세요",
                             Toast.LENGTH_SHORT).show();
+                    e1.requestFocus();
                 } else {
-                    int res = Integer.parseInt(num1) + Integer.parseInt(num2);
-                    Toast.makeText(getApplicationContext(),
-                            "더하기 계산 결과는 " + res + "입니다.",
-                            Toast.LENGTH_SHORT).show();
+                    if (num2.equals("")) {
+                        Toast.makeText(getApplicationContext(),
+                                "값을 입력하세요",
+                                Toast.LENGTH_SHORT).show();
+                        e2.requestFocus();
+                    } else {
+                        int res = Integer.parseInt(num1) + Integer.parseInt(num2);
+                        Toast.makeText(getApplicationContext(),
+                                "더하기 계산 결과는 " + res + "입니다.",
+                                Toast.LENGTH_SHORT).show();
+                    }
                 }
             }
         });
@@ -51,15 +60,23 @@ public class Main5Activity extends AppCompatActivity {
                 String num1 = e1.getText().toString();
                 String num2 = e2.getText().toString();
 
-                if (num1.equals("") || num2.equals("")) {
+                if (num1.equals("")) {
                     Toast.makeText(getApplicationContext(),
                             "값을 입력하세요",
                             Toast.LENGTH_SHORT).show();
+                    e1.requestFocus();
                 } else {
-                    int res = Integer.parseInt(num1) - Integer.parseInt(num2);
-                    Toast.makeText(getApplicationContext(),
-                            "빼기 계산 결과는 " + res + "입니다.",
-                            Toast.LENGTH_SHORT).show();
+                    if (num2.equals("")) {
+                        Toast.makeText(getApplicationContext(),
+                                "값을 입력하세요",
+                                Toast.LENGTH_SHORT).show();
+                        e2.requestFocus();
+                    } else {
+                        int res = Integer.parseInt(num1) - Integer.parseInt(num2);
+                        Toast.makeText(getApplicationContext(),
+                                "빼기 계산 결과는 " + res + "입니다.",
+                                Toast.LENGTH_SHORT).show();
+                    }
                 }
             }
         });
@@ -69,15 +86,23 @@ public class Main5Activity extends AppCompatActivity {
                 String num1 = e1.getText().toString();
                 String num2 = e2.getText().toString();
 
-                if (num1.equals("") || num2.equals("")) {
+                if (num1.equals("")) {
                     Toast.makeText(getApplicationContext(),
                             "값을 입력하세요",
                             Toast.LENGTH_SHORT).show();
+                    e1.requestFocus();
                 } else {
-                    int res = Integer.parseInt(num1) * Integer.parseInt(num2);
-                    Toast.makeText(getApplicationContext(),
-                            "곱하기 계산 결과는 " + res + "입니다.",
-                            Toast.LENGTH_SHORT).show();
+                    if (num2.equals("")) {
+                        Toast.makeText(getApplicationContext(),
+                                "값을 입력하세요",
+                                Toast.LENGTH_SHORT).show();
+                        e2.requestFocus();
+                    } else {
+                        int res = Integer.parseInt(num1) * Integer.parseInt(num2);
+                        Toast.makeText(getApplicationContext(),
+                                "곱하기 계산 결과는 " + res + "입니다.",
+                                Toast.LENGTH_SHORT).show();
+                    }
                 }
             }
         });
@@ -87,15 +112,23 @@ public class Main5Activity extends AppCompatActivity {
                 String num1 = e1.getText().toString();
                 String num2 = e2.getText().toString();
 
-                if (num1.equals("") || num2.equals("")) {
+                if (num1.equals("")) {
                     Toast.makeText(getApplicationContext(),
                             "값을 입력하세요",
                             Toast.LENGTH_SHORT).show();
+                    e1.requestFocus();
                 } else {
-                    float res = Float.parseFloat(num1) / Float.parseFloat(num2);
-                    Toast.makeText(getApplicationContext(),
-                            "나누기 계산 결과는 " + res + "입니다.",
-                            Toast.LENGTH_SHORT).show();
+                    if (num2.equals("")) {
+                        Toast.makeText(getApplicationContext(),
+                                "값을 입력하세요",
+                                Toast.LENGTH_SHORT).show();
+                        e2.requestFocus();
+                    } else {
+                        float res = Integer.parseInt(num1) / Integer.parseInt(num2);
+                        Toast.makeText(getApplicationContext(),
+                                "더하기 계산 결과는 " + res + "입니다.",
+                                Toast.LENGTH_SHORT).show();
+                    }
                 }
             }
         });
